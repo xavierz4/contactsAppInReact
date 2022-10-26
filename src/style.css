@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+  width: 100%;
+}
+
+header {
+  background-color: rgba(141, 21, 253, 0.993);
+  margin: auto;
+  padding: 16px 32px;
+  font-weight: 200;
+  font-size: 30px;
+  font-family: "McLaren", cursive;
+  text-align: center;
+  color: #eee;
+  width: 100%;
+}
+
+img {
+  width: 380px;
+  height: 200px;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  border: red 1px;
+}
+.cardPerson {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(
+    40deg,
+    #fffc00 0%,
+    #fc00ff 45%,
+    #00fffc 100%
+  );
+
+  color: #fff;
+  width: 380px;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin: auto;
+  font-family: "McLaren", cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 15px 60px rgba(144, 4, 187, 0.5);
+}
+.circular-square {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 rgb(185, 185, 185);
+  text-align: end;
+  border: 4px rgb(230, 230, 230) solid;
+  margin-top: 20px;
+}
+.footerContainer {
+  margin-top: 100px;
+}
