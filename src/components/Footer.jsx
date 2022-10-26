@@ -16,7 +16,7 @@ export const Footer = () => {
           <h3>
             Github:
             <a
-              href="https://github.com/xavierz4/React-contactsApp"
+              href="https://github.com/xavierz4/contactsAppInReact"
               target="_blank"
             >
               ContactsApp in Github
