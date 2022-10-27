@@ -1,8 +1,11 @@
 import { Card } from "./components/Card";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { contacts } from "./components/contacts";
 
-export const ContactsApp = (props) => {
+export const ContactsApp = () => {
+  console.log(contacts);
+
   return (
     <>
       <div>
@@ -11,24 +14,19 @@ export const ContactsApp = (props) => {
 
       <div className="cardContainer">
         <Card
-          name="Shakira"
-          img="https://www.lecturas.com/medio/2022/10/20/shakira-monotonia_f488041a_1280x720.jpg"
-          tel="56646656"
-          email="shaki@gmail.com"
+          name={contacts[0].name}
+          imgUrl={contacts[0].imgUrl}
+          phone={contacts[0].phone}
         />
-
         <Card
-          name="Tom Holland"
-          img="https://ichef.bbci.co.uk/news/640/cpsprodpb/62CB/production/_126319252_gettyimages-1361454688.jpg"
-          tel="54545612"
-          email="th@gmail.com"
+          name={contacts[1].name}
+          imgUrl={contacts[1].imgUrl}
+          phone={contacts[1].phone}
         />
-
         <Card
-          name="Doctor Strange"
-          img="https://img.europapress.es/fotoweb/fotonoticia_20220508123048_420.jpg"
-          tel="5545454"
-          email="strange@gmail.com"
+          name={contacts[2].name}
+          imgUrl={contacts[2].imgUrl}
+          phone={contacts[2].phone}
         />
       </div>
 
