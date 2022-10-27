@@ -1,3 +1,5 @@
+import { Avatar } from "./perfil/Avatar";
+
 export const Header = () => {
   return (
     <header className="header">

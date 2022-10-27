@@ -1,10 +1,14 @@
+import { Details } from "./Details";
+
 export const Card = (props) => {
   return (
     <div className="cardPerson">
-      <h2>{props.name}</h2>
-      <img src={props.imgUrl} alt="shaki-triste" />
-      <p>Telefono: {props.phone}</p>
-      <p>Email: {props.email}</p>
+      <h2 className="title">{props.name}</h2>
+      <img src={props.imgUrl} alt="" />
+      <div className="bottomTar">
+        <Details detailInfo={props.phone} />
+        <Details detailInfo={props.email} />
+      </div>
     </div>
   );
 };
