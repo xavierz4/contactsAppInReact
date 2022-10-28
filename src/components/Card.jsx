@@ -4,7 +4,7 @@ export const Card = (props) => {
   return (
     <div className="cardPerson">
       <h2 className="title">{props.name}</h2>
-      <img src={props.imgUrl} alt="" />
+      <img src={props.imgUrl} />
       <div className="bottomTar">
         <Details detailInfo={props.phone} />
         <Details detailInfo={props.email} />

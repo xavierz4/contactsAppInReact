@@ -1,5 +1,6 @@
 export const contacts = [
   {
+    id: 1,
     name: "Shakira",
     imgUrl:
       "https://www.lecturas.com/medio/2022/10/20/shakira-monotonia_f488041a_1280x720.jpg",
@@ -8,6 +9,7 @@ export const contacts = [
   },
 
   {
+    id: 2,
     name: "Tom Holland",
     imgUrl:
       "https://ichef.bbci.co.uk/news/640/cpsprodpb/62CB/production/_126319252_gettyimages-1361454688.jpg",
@@ -15,6 +17,7 @@ export const contacts = [
     email: "th@gmail.com",
   },
   {
+    id: 3,
     name: "Doctor Strange",
     imgUrl:
       "https://img.europapress.es/fotoweb/fotonoticia_20220508123048_420.jpg",
